@@ -28,7 +28,7 @@ const Team = () => {
                   <img src={avatar1} alt="avatar" />
                 </div>
                 <div className="member_details">
-                  <h6>Ricardo Jimenez <span>Founder</span></h6>
+                  <h6>Alain Herrera <span>Founder</span></h6>
                   <div className="social_profiles">
                     <a href="#"> <FaTwitter /> </a>
                     <a href="#"> <FaInstagram /> </a>
@@ -56,7 +56,7 @@ const Team = () => {
                   <img src={avatar2} alt="avatar" />
                 </div>
                 <div className="member_details">
-                  <h6>Juan Pablo <span>Co-Founder</span></h6>
+                  <h6>Adrian Herrera <span>Co-Founder</span></h6>
                   <div className="social_profiles">
                     <a href="#"> <FaTwitter /> </a>
                     <a href="#"> <FaInstagram /> </a>
