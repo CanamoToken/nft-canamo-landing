@@ -37,7 +37,7 @@ const Header = () => {
             <div className="bithu_menu_left_sect">
               <div className="logo">
                 <a href="/">
-                  <img src={logo} alt="bithu nft logo" />
+                  <img src={logo} alt="canamo nft logo" style={{height:'6rem'}} />
                 </a>
               </div>
             </div>
