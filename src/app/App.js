@@ -23,7 +23,7 @@ function App() {
       <Route path="/home-three" element={<HomeV3 />} />
       <Route path="/home-four" element={<HomeV4 />} />
 
-      <Route path="/" element={<HomeV5 />} />
+      <Route path="/" element={<HomeV1 />} />
 
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/post" element={<BlogDetails />} />
