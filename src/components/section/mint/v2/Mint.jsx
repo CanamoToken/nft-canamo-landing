@@ -147,7 +147,7 @@ const Mint = () => {
                 <CountdownTimer {...counterSettings} />
               </div>
               <div className="content_footer">
-                <h5>Max 5 NFTs per wallet</h5>
+                <h5>Max 50 NFTs per wallet</h5>
                 <h5>Price 0.09 ETH + gas</h5>
                 <h5>Mint is live until 25 apr 04:00H</h5>
               </div>
