@@ -44,7 +44,7 @@ const Popup = ({ popupHandle }) => {
 
           <div className="popup_content">
             <h5>Welcome to RaroBrush!</h5>
-            <h6>Best collection, Best Artist, Best NFTs</h6>
+            <h6>Best collection, Best Artist,</h6>
           </div>
         </a>
 
