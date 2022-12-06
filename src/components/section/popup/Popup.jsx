@@ -1,9 +1,9 @@
 import { Slider, SliderItem } from "../../../common/slider/Slider";
 import PopupStyleWrapper from "./Popup.style";
 
-import coinIcon1 from "../../../assets/images/icon/pop-up-img-1.png";
-import coinIcon2 from "../../../assets/images/icon/pop-up-img-2.png";
-import coinIcon3 from "../../../assets/images/icon/pop-up-img-3.png";
+import coinIcon1 from "../../../assets/images/raro2.png";
+import coinIcon2 from "../../../assets/images/raro2.png";
+import coinIcon3 from "../../../assets/images/raro2.png";
 import closeIcon from "../../../assets/images/icon/popup-close-icon.svg";
 
 const Popup = ({ popupHandle }) => {
