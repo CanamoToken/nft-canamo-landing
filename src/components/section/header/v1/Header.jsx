@@ -5,7 +5,7 @@ import { MdNotes } from "react-icons/md";
 import Button from "../../../../common/button";
 import NavWrapper from "./Header.style";
 import MobileMenu from "../mobileMenu/MobileMenu";
-import logo from "../../../../assets/images/logo.png";
+import logo from "../../../../assets/images/raro4.png";
 
 const Header = () => {
   const { walletModalHandle } = useModal();
@@ -37,7 +37,7 @@ const Header = () => {
             <div className="bithu_menu_left_sect">
               <div className="logo">
                 <a href="/">
-                  <img src={logo} alt="canamo nft logo" style={{height:'200px'}} />
+                  <img src="raro2.png" alt="canamo nft logo" style={{height:'70px'}} />
                 </a>
               </div>
             </div>

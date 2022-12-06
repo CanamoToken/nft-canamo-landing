@@ -12,7 +12,7 @@ const About = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="v1_about_us_right_sect">
-              <SectionTitle title="ABOUT US" subtitle="THE STORY " />
+              <SectionTitle title="What is RaroBrush" subtitle="THE STORY " />
               <div className="v1_about_us_right_text">
                 <p>{aboutDescription1}</p>
                 <p>{aboutDescription2}</p>

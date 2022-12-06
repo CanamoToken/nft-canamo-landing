@@ -5,7 +5,7 @@ import Navigation from "./Navigation";
 import Button from "../../../../common/button";
 import HeaderStyleWrapper from "./Header.style";
 
-import logo from "../../../../assets/images/mint-logo.png";
+import logo from "../../../../assets/images/raro2.png";
 import menuIcon from "../../../../assets/images/icon/mint-menu_icon.svg";
 
 const Header = () => {

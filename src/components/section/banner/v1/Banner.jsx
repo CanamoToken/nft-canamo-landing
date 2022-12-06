@@ -7,6 +7,7 @@ import characterThumb from "../../../../assets/images/nft/Character1.png";
 import mintLiveDownArrow from "../../../../assets/images/nft/mint_live_down_arrow.svg";
 import mintLiveText from "../../../../assets/images/nft/mint_live_text.png";
 import homeImageBG from "../../../../assets/images/nft/home_img_bg.png";
+import { BsAlignCenter } from "react-icons/bs";
 
 const Banner = () => {
   const { mintModalHandle } = useModal();
@@ -16,7 +17,8 @@ const Banner = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="bithu_v1_baner_left">
-              <h2>Canamo Wizard 📡 NFT collections</h2>
+              <h2>RaroBrush</h2>
+              <h3>  Hemp Asset backed  & Fernando Botero NFT</h3> {BsAlignCenter}
               <h3>
                 <span className="count">
                   <Counter end={2000} duration={2000} />
@@ -33,12 +35,12 @@ const Banner = () => {
                 </Button>
               </div>
               <div className="coin-info">
-                <span>Max 2 NFTs per wallet . Price 0.09 ETH + gas</span>
+                <span>Max 2 NFTs per wallet . Price 0.00080 ETH + gas</span>
                 <span>
                   MINT IS LIVE{" "}
-                  <span className="highlighted">UNTIL 25 APR 04:00H</span>
+                  <span className="highlighted">UNTIL 27 MARCH 2023 04:00H</span>
                 </span>
-                <span>Presale : SOLDOUT</span>
+                <span>Presale : <span className="highlighted">UNTIL 20 JAN 04:00H</span></span>
               </div>
             </div>
           </div>

@@ -43,8 +43,8 @@ const Popup = ({ popupHandle }) => {
           </Slider>
 
           <div className="popup_content">
-            <h5>Looking For FUll Minting Functional Script ?</h5>
-            <h6>React JS, Smart Contract, Solidity & Metamask Working</h6>
+            <h5>Welcome to RaroBrush!</h5>
+            <h6>Best collection, Best Artist, Best NFTs</h6>
           </div>
         </a>
 

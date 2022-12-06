@@ -1,5 +1,5 @@
 import styled, { keyframes } from "styled-components";
-import sectionBgImage from "../../../../assets/images/bg/h1_banner_bg.png";
+import sectionBgImage from "../../../../assets/images/bg/background.png";
 
 const rotate = keyframes`
 from {
@@ -37,7 +37,7 @@ const BannerV1Wrapper = styled.section`
       font-size: 60px;
       line-height: 80px;
       text-transform: uppercase;
-      color: #ffffff;
+      color: #d2f75a;
       margin-bottom: 32px;
     }
 

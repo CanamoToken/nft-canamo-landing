@@ -15,7 +15,7 @@ const About = () => {
         <div className="row flex-row-reverse">
           <div className="col-md-6">
             <div className="v1_about_us_right_sect">
-              <SectionTitle title="ABOUT US" subtitle="THE STORY " />
+              <SectionTitle title="ABOUT US" subtitle="STORYTELLING " />
               <div className="v1_about_us_right_text">
                 <p>{aboutDescription1}</p>
                 <p>{aboutDescription2}</p>
