@@ -2,12 +2,27 @@ import { useModal } from "../../../../utils/ModalContext";
 import Counter from "../../../../common/counter";
 import Button from "../../../../common/button";
 import BannerV1Wrapper from "./Banner.style";
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
 
 import characterThumb from "../../../../assets/images/nft/Character1.png";
 import mintLiveDownArrow from "../../../../assets/images/nft/mint_live_down_arrow.svg";
 import mintLiveText from "../../../../assets/images/nft/mint_live_text.png";
 import homeImageBG from "../../../../assets/images/nft/home_img_bg.png";
 import { BsAlignCenter } from "react-icons/bs";
+import { MdVerticalAlignCenter } from "react-icons/md";
+
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  color: theme.palette.text.secondary,
+}));
+
 
 const Banner = () => {
   const { mintModalHandle } = useModal();
@@ -28,10 +43,10 @@ const Banner = () => {
               <div className="banner_buttons">
                 <Button lg variant="mint" onClick={() => mintModalHandle()}>
                   {" "}
-                  Mint now
+                  Mastergrowers 
                 </Button>
                 <Button lg variant="outline">
-                  Wishlist now
+                  Fernando Botero
                 </Button>
               </div>
               <div className="coin-info">
@@ -58,10 +73,24 @@ const Banner = () => {
                   </div>
                 </div>
                 <div className="bithu_v1_baner_right_img_bg">
-                  <img src={homeImageBG} alt="" />
-                </div>
-                <div className="bithu_v1_baner_right_img">
-                  <img src={characterThumb} alt="avater" />
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+  <Grid item xs={6}>
+  <img src="lechat.png" alt="" 
+  style={
+    {height:"10rem"}  
+    }></img> /> 
+  </Grid>
+  <Grid item xs={6}>
+  <img src="4.png" alt="" />
+  </Grid>
+  <Grid item xs={6}>
+  <img src="1.png" alt="" />
+  </Grid>
+  <Grid item xs={6}>
+  <img src="2.png" alt="" />
+  </Grid>
+</Grid>
+              
                 </div>
               </div>
             </div>

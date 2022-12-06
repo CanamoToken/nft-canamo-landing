@@ -10,17 +10,7 @@ const Button = ({ children, ...props }) => {
 
       <img
         src={buttonHoverShapeWhite}
-        className="hover-shape shape-left shape-white"
-        alt="bithu nft button hover shape"
-      />
-      <img
-        src={buttonHoverShapeWhite}
         className="hover-shape shape-right shape-white"
-        alt="bithu nft button hover shape"
-      />
-      <img
-        src={buttonHoverShapeBlack}
-        className="hover-shape shape-left shape-black"
         alt="bithu nft button hover shape"
       />
       <img

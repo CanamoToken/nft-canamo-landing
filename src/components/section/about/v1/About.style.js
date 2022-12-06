@@ -20,7 +20,7 @@ const AboutStyleWrapper = styled.section`
       font-family: "Inter";
       font-style: normal;
       font-weight: 500;
-      font-size: 16px;
+      font-size: 20px;
       line-height: 28px;
       color: rgba(255, 255, 255, 0.8);
       padding-bottom: 20px;
